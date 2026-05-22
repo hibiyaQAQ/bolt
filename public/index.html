@@ -39,6 +39,12 @@
         </svg>
         View Environment
       </a>
+      <a href="/chat" class="btn btn-secondary" id="btn-chat">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+        </svg>
+        AI Chat
+      </a>
       <a href="/api/env" class="btn btn-secondary" id="btn-raw-json" target="_blank">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <polyline points="16 18 22 12 16 6"/>
@@ -72,18 +78,17 @@
       <div class="feature-card">
         <div class="feature-icon feature-icon-3">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="16 18 22 12 16 6"/>
-            <polyline points="8 6 2 12 8 18"/>
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
           </svg>
         </div>
-        <h3>JSON API</h3>
-        <p>Access raw environment data via the <code>/api/env</code> endpoint</p>
+        <h3>AI Chat</h3>
+        <p>Ask questions about your environment, API keys, and configuration</p>
       </div>
     </div>
   </main>
 
   <footer class="footer" id="footer">
-    <p>Built for sandbox environments &middot; <a href="/env">View Env</a> &middot; <a href="/api/env">API</a></p>
+    <p>Built for sandbox environments &middot; <a href="/env">View Env</a> &middot; <a href="/chat">AI Chat</a> &middot; <a href="/api/env">API</a></p>
   </footer>
 </body>
 </html>

@@ -7,27 +7,27 @@
   --bg-secondary: #111119;
   --bg-card: rgba(17, 17, 25, 0.8);
   --bg-card-hover: rgba(25, 25, 38, 0.9);
-  --bg-highlight: rgba(139, 92, 246, 0.06);
+  --bg-highlight: rgba(14, 165, 233, 0.06);
 
   --border-primary: rgba(255, 255, 255, 0.06);
-  --border-hover: rgba(139, 92, 246, 0.3);
+  --border-hover: rgba(14, 165, 233, 0.3);
   --border-highlight: rgba(251, 191, 36, 0.3);
 
   --text-primary: #f0f0f5;
   --text-secondary: #8b8b9e;
   --text-muted: #5a5a6e;
-  --text-accent: #a78bfa;
+  --text-accent: #22d3ee;
 
-  --gradient-start: #8b5cf6;
-  --gradient-mid: #6366f1;
-  --gradient-end: #3b82f6;
+  --gradient-start: #0891b2;
+  --gradient-mid: #0e7490;
+  --gradient-end: #0369a1;
 
   --color-secret: #f43f5e;
   --color-secret-bg: rgba(244, 63, 94, 0.1);
   --color-path: #22d3ee;
   --color-path-bg: rgba(34, 211, 238, 0.1);
-  --color-config: #a78bfa;
-  --color-config-bg: rgba(167, 139, 250, 0.1);
+  --color-config: #38bdf8;
+  --color-config-bg: rgba(56, 189, 248, 0.1);
   --color-important: #fbbf24;
   --color-important-bg: rgba(251, 191, 36, 0.1);
 
@@ -122,7 +122,7 @@ code {
 .bg-glow-1 {
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(139, 92, 246, 0.12), transparent 70%);
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.12), transparent 70%);
   top: -200px;
   right: -100px;
   animation: float-glow 15s ease-in-out infinite;
@@ -166,12 +166,12 @@ code {
 .btn-primary {
   background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid));
   color: white;
-  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.3);
+  box-shadow: 0 4px 20px rgba(14, 165, 233, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(139, 92, 246, 0.4);
+  box-shadow: 0 8px 30px rgba(14, 165, 233, 0.4);
   color: white;
 }
 
@@ -212,7 +212,7 @@ code {
 }
 
 .btn-icon:hover {
-  background: rgba(139, 92, 246, 0.1);
+  background: rgba(14, 165, 233, 0.1);
   color: var(--text-accent);
 }
 
@@ -495,7 +495,7 @@ code {
 
 .search-input:focus {
   border-color: var(--gradient-start);
-  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.15);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
 }
 
 .search-kbd {
@@ -540,8 +540,8 @@ code {
 }
 
 .chip-active {
-  background: rgba(139, 92, 246, 0.12);
-  border-color: rgba(139, 92, 246, 0.3);
+  background: rgba(14, 165, 233, 0.12);
+  border-color: rgba(14, 165, 233, 0.3);
   color: var(--text-accent);
 }
 
@@ -837,6 +837,6 @@ code {
    Selection
    ======================================== */
 ::selection {
-  background: rgba(139, 92, 246, 0.3);
+  background: rgba(14, 165, 233, 0.3);
   color: white;
 }
